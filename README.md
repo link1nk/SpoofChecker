@@ -23,4 +23,4 @@ Most HWIDs are found more than once using different techniques to ensure they ha
 * **[All guys from this thread]** - https://www.unknowncheats.me/forum/anti-cheat-bypass/333662-methods-retrieving-unique-identifiers-hwids-pc.html
 * **[Samuel Tulach]** - Thank you for the simple code on how to print the TPM ID. https://github.com/SamuelTulach/tpm-spoofer
 * **[Saibulusu]** - Your code about SMBIOS Parser saved me a lot of work, thank you. . https://github.com/saibulusu/SMBIOS-Parser
-* **[0mdl]** - I really liked the way you print the serials with the colors, the basic structure of the ioctl is also very good, thank you. https://github.com/0mdi/ultimate_spoofer
+* **[0mdi]** - I really liked the way you print the serials with the colors, the basic structure of the ioctl is also very good, thank you. https://github.com/0mdi/ultimate_spoofer
