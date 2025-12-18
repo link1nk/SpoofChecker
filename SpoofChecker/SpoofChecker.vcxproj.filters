@@ -122,6 +122,9 @@
     <ClInclude Include="VolumesDefines.h">
       <Filter>Header Files\Checks\Volumes</Filter>
     </ClInclude>
+    <ClInclude Include="Files.h">
+      <Filter>Header Files\Checks\Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SpoofChecker.cpp">
@@ -150,6 +153,9 @@
     </ClCompile>
     <ClCompile Include="Volumes.cpp">
       <Filter>Source Files\Checks\Volumes</Filter>
+    </ClCompile>
+    <ClCompile Include="Files.cpp">
+      <Filter>Source Files\Checks\Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -8,6 +8,7 @@ int main(void)
 	MAC::QueryAllInfo();
 	ARP::QueryAllInfo();
 	Volumes::QueryAllInfo();
+	Files::QueryAllInfo();
 
 	system("pause");
 }
