@@ -3,6 +3,7 @@
 int main(void)
 {
 	DISK::QueryAllInfo();
+	TPM::ShowTPMInfo();
 
 	system("pause");
 }

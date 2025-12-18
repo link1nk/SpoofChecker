@@ -133,6 +133,7 @@
     <ClInclude Include="DiskDefines.h" />
     <ClInclude Include="IOCTL_Base.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="TPM.h" />
     <ClInclude Include="Utils.h" />
   </ItemGroup>
   <ItemGroup>
@@ -142,6 +143,10 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="SpoofChecker.cpp" />
+    <ClCompile Include="TPM.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

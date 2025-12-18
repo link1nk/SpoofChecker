@@ -104,6 +104,9 @@
     <ClInclude Include="DiskDefines.h">
       <Filter>Header Files\Checks\DISK</Filter>
     </ClInclude>
+    <ClInclude Include="TPM.h">
+      <Filter>Header Files\Checks\TPM</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SpoofChecker.cpp">
@@ -118,5 +121,11 @@
     <ClCompile Include="Disk.cpp">
       <Filter>Source Files\Checks\DISK</Filter>
     </ClCompile>
+    <ClCompile Include="TPM.cpp">
+      <Filter>Source Files\Checks\TPM</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.md" />
   </ItemGroup>
 </Project>

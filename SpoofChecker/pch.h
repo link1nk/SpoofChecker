@@ -38,3 +38,4 @@
 #include "Utils.h"
 #include "DiskDefines.h"
 #include "Disk.h"
+#include "TPM.h"
