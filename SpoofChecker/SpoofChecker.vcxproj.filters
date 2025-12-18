@@ -110,6 +110,9 @@
     <ClInclude Include="UsnJrnl.h">
       <Filter>Header Files\Checks\UsnJrnl</Filter>
     </ClInclude>
+    <ClInclude Include="MAC.h">
+      <Filter>Header Files\Checks\MAC</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SpoofChecker.cpp">
@@ -129,6 +132,9 @@
     </ClCompile>
     <ClCompile Include="UsnJrnl.cpp">
       <Filter>Source Files\Checks\UsnJrnl</Filter>
+    </ClCompile>
+    <ClCompile Include="MAC.cpp">
+      <Filter>Source Files\Checks\MAC</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

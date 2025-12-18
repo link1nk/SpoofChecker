@@ -40,3 +40,4 @@
 #include "Disk.h"
 #include "TPM.h"
 #include "UsnJrnl.h"
+#include "MAC.h"
