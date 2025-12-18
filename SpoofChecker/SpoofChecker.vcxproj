@@ -134,6 +134,7 @@
     <ClInclude Include="IOCTL_Base.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="TPM.h" />
+    <ClInclude Include="UsnJrnl.h" />
     <ClInclude Include="Utils.h" />
   </ItemGroup>
   <ItemGroup>
@@ -144,6 +145,7 @@
     </ClCompile>
     <ClCompile Include="SpoofChecker.cpp" />
     <ClCompile Include="TPM.cpp" />
+    <ClCompile Include="UsnJrnl.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md" />

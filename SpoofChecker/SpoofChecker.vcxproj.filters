@@ -107,6 +107,9 @@
     <ClInclude Include="TPM.h">
       <Filter>Header Files\Checks\TPM</Filter>
     </ClInclude>
+    <ClInclude Include="UsnJrnl.h">
+      <Filter>Header Files\Checks\UsnJrnl</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SpoofChecker.cpp">
@@ -123,6 +126,9 @@
     </ClCompile>
     <ClCompile Include="TPM.cpp">
       <Filter>Source Files\Checks\TPM</Filter>
+    </ClCompile>
+    <ClCompile Include="UsnJrnl.cpp">
+      <Filter>Source Files\Checks\UsnJrnl</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
