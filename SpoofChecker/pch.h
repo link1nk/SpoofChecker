@@ -42,3 +42,5 @@
 #include "UsnJrnl.h"
 #include "MAC.h"
 #include "ARP.h"
+#include "VolumesDefines.h"
+#include "Volumes.h"

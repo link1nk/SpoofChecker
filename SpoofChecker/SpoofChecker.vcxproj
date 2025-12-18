@@ -138,6 +138,8 @@
     <ClInclude Include="TPM.h" />
     <ClInclude Include="UsnJrnl.h" />
     <ClInclude Include="Utils.h" />
+    <ClInclude Include="Volumes.h" />
+    <ClInclude Include="VolumesDefines.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ARP.cpp" />
@@ -150,6 +152,7 @@
     <ClCompile Include="SpoofChecker.cpp" />
     <ClCompile Include="TPM.cpp" />
     <ClCompile Include="UsnJrnl.cpp" />
+    <ClCompile Include="Volumes.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md" />

@@ -7,6 +7,7 @@ int main(void)
 	UsnJrnl::QueryAllInfo();
 	MAC::QueryAllInfo();
 	ARP::QueryAllInfo();
+	Volumes::QueryAllInfo();
 
 	system("pause");
 }

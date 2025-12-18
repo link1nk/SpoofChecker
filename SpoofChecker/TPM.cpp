@@ -50,7 +50,7 @@ std::string TPM::GetKeyHash(const std::vector<BYTE>& input, ALG_ID algo)
 	if (!CryptCreateHash(provider, algo, 0, 0, &handle))
 		return "ERROR";
 
-	if (!CryptHashData(handle, input.data(), input.size(), 0))
+	if (!CryptHashData(handle, input.data(), (DWORD)input.size(), 0))
 		return "ERROR";
 
 	if (!CryptGetHashParam(handle, HP_HASHVAL, nullptr, &size, 0))

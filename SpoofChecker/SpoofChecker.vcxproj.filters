@@ -116,6 +116,12 @@
     <ClInclude Include="ARP.h">
       <Filter>Header Files\Checks\ARP</Filter>
     </ClInclude>
+    <ClInclude Include="Volumes.h">
+      <Filter>Header Files\Checks\Volumes</Filter>
+    </ClInclude>
+    <ClInclude Include="VolumesDefines.h">
+      <Filter>Header Files\Checks\Volumes</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SpoofChecker.cpp">
@@ -141,6 +147,9 @@
     </ClCompile>
     <ClCompile Include="ARP.cpp">
       <Filter>Source Files\Checks\ARP</Filter>
+    </ClCompile>
+    <ClCompile Include="Volumes.cpp">
+      <Filter>Source Files\Checks\Volumes</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
