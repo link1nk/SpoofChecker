@@ -47,3 +47,4 @@
 #include "Files.h"
 #include "SMBIOSDefines.h"
 #include "SMBIOS.h"
+#include "Registry.h"

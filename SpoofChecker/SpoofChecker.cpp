@@ -10,6 +10,7 @@ int main(void)
 	Volumes::QueryAllInfo();
 	Files::QueryAllInfo();
 	SMBIOS::QueryAllInfo();
+	Registry::QueryAllInfo();
 
 	system("pause");
 }
