@@ -27,16 +27,82 @@
     <Filter Include="Header Files\Utils">
       <UniqueIdentifier>{2ae65a59-9179-469d-b3bb-d8eb3fb269fd}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Utils">
-      <UniqueIdentifier>{4aa3e829-3f9b-48b0-a15b-435d3488e44a}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\App">
       <UniqueIdentifier>{77d4f1f9-327a-4c71-92a0-cf59ebebb7c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Checks\ARP">
+      <UniqueIdentifier>{597535f8-520c-420e-aee2-55f1a2be59f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Checks\DISK">
+      <UniqueIdentifier>{9146ebae-fbb9-4782-9d25-bef1307adb72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Checks\MAC">
+      <UniqueIdentifier>{975d57ab-4b28-4bce-8f44-f85b086d14be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Checks\Files">
+      <UniqueIdentifier>{e7ea9c83-69e5-40a2-a2e0-1f2a90e03ce9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Checks\Registry">
+      <UniqueIdentifier>{6420f3cb-3627-4ec5-b4d9-2464b3b5993f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Checks\SMBIOS">
+      <UniqueIdentifier>{4172cc98-b19c-4ffa-92c5-8a0ec4150aa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Checks\TPM">
+      <UniqueIdentifier>{66c03576-78b7-45b7-8df3-4ba74f39a612}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Checks\UsnJrnl">
+      <UniqueIdentifier>{d33b354b-6584-4d6c-8eb8-9b7f07c34e6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Checks\Volumes">
+      <UniqueIdentifier>{0f49251e-42e4-4b87-bfa5-3045b02b8ed1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Checks\ARP">
+      <UniqueIdentifier>{bd100393-a043-4830-9a90-d26b38ff6489}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Checks\DISK">
+      <UniqueIdentifier>{cdd39c80-a648-40b4-a161-fd3c41077efc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Checks\MAC">
+      <UniqueIdentifier>{baecdae3-c51f-4d37-9502-308f61a5a028}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Checks\Files">
+      <UniqueIdentifier>{7ef891d3-014f-4dca-8ab6-f21e4e009b85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Checks\Volumes">
+      <UniqueIdentifier>{b677c632-bb95-461b-9e19-6b91cda60698}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Checks\UsnJrnl">
+      <UniqueIdentifier>{e1fa886b-0b1e-4767-b80f-1f20c2dec443}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Checks\TPM">
+      <UniqueIdentifier>{023a656b-12cf-4632-9f1a-73950b1ff635}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Checks\SMBIOS">
+      <UniqueIdentifier>{88252fd7-4669-41a4-9e36-bf5f3348b43e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Checks\Registry">
+      <UniqueIdentifier>{516e7f78-e6bb-48ad-9dc3-fa0327b1b603}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
       <Filter>Header Files\App</Filter>
+    </ClInclude>
+    <ClInclude Include="Colors.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCTL_Base.h">
+      <Filter>Header Files\IOCTL</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Disk.h">
+      <Filter>Header Files\Checks\DISK</Filter>
+    </ClInclude>
+    <ClInclude Include="DiskDefines.h">
+      <Filter>Header Files\Checks\DISK</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -45,6 +111,12 @@
     </ClCompile>
     <ClCompile Include="pch.cpp">
       <Filter>Source Files\App</Filter>
+    </ClCompile>
+    <ClCompile Include="IOCTL_Base.cpp">
+      <Filter>Source Files\IOCTL</Filter>
+    </ClCompile>
+    <ClCompile Include="Disk.cpp">
+      <Filter>Source Files\Checks\DISK</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

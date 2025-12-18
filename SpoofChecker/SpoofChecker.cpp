@@ -2,5 +2,7 @@
 
 int main(void)
 {
-	std::cout << "Hello babes!\n";
+	DISK::QueryAllInfo();
+
+	system("pause");
 }

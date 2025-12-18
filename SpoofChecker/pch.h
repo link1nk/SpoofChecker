@@ -1,10 +1,11 @@
-pragma once
+#pragma once
 
 #pragma comment(lib, "ws2_32.lib")
 #pragma comment(lib, "Iphlpapi.lib")
 #pragma comment(lib, "rpcrt4.lib")
 
 #define _NTSCSI_USER_MODE_
+#define _CRT_SECURE_NO_WARNINGS
 
 #include <algorithm>
 #include <iostream>
@@ -31,3 +32,9 @@ pragma once
 #include <string>
 #include <fstream>
 #include <scsi.h>
+
+#include "Colors.h"
+#include "IOCTL_Base.h"
+#include "Utils.h"
+#include "DiskDefines.h"
+#include "Disk.h"
