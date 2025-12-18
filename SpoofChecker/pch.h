@@ -45,3 +45,5 @@
 #include "VolumesDefines.h"
 #include "Volumes.h"
 #include "Files.h"
+#include "SMBIOSDefines.h"
+#include "SMBIOS.h"

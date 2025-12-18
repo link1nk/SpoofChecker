@@ -125,6 +125,12 @@
     <ClInclude Include="Files.h">
       <Filter>Header Files\Checks\Files</Filter>
     </ClInclude>
+    <ClInclude Include="SMBIOS.h">
+      <Filter>Header Files\Checks\SMBIOS</Filter>
+    </ClInclude>
+    <ClInclude Include="SMBIOSDefines.h">
+      <Filter>Header Files\Checks\SMBIOS</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SpoofChecker.cpp">
@@ -156,6 +162,9 @@
     </ClCompile>
     <ClCompile Include="Files.cpp">
       <Filter>Source Files\Checks\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SMBIOS.cpp">
+      <Filter>Source Files\Checks\SMBIOS</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

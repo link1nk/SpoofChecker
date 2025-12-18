@@ -9,6 +9,7 @@ int main(void)
 	ARP::QueryAllInfo();
 	Volumes::QueryAllInfo();
 	Files::QueryAllInfo();
+	SMBIOS::QueryAllInfo();
 
 	system("pause");
 }
