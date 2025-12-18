@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Checks">
+      <UniqueIdentifier>{20a5748d-1b78-4011-bd02-c4a5189205d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Checks">
+      <UniqueIdentifier>{b4896889-1f39-4553-a64e-c9355b5f87e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IOCTL">
+      <UniqueIdentifier>{508f244f-ed12-4552-aa1c-86998815765b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IOCTL">
+      <UniqueIdentifier>{d6854165-f6b2-45b0-8df4-78a60375424c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\App">
+      <UniqueIdentifier>{298ea6b6-eee4-455c-996f-1df7f067ede3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{2ae65a59-9179-469d-b3bb-d8eb3fb269fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{4aa3e829-3f9b-48b0-a15b-435d3488e44a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\App">
+      <UniqueIdentifier>{77d4f1f9-327a-4c71-92a0-cf59ebebb7c9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files\App</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SpoofChecker.cpp">
+      <Filter>Source Files\App</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files\App</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
