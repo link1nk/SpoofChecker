@@ -113,6 +113,9 @@
     <ClInclude Include="MAC.h">
       <Filter>Header Files\Checks\MAC</Filter>
     </ClInclude>
+    <ClInclude Include="ARP.h">
+      <Filter>Header Files\Checks\ARP</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SpoofChecker.cpp">
@@ -135,6 +138,9 @@
     </ClCompile>
     <ClCompile Include="MAC.cpp">
       <Filter>Source Files\Checks\MAC</Filter>
+    </ClCompile>
+    <ClCompile Include="ARP.cpp">
+      <Filter>Source Files\Checks\ARP</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

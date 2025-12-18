@@ -6,6 +6,7 @@ int main(void)
 	TPM::ShowTPMInfo();
 	UsnJrnl::QueryAllInfo();
 	MAC::QueryAllInfo();
+	ARP::QueryAllInfo();
 
 	system("pause");
 }
