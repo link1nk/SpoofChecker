@@ -4,6 +4,7 @@ int main(void)
 {
 	DISK::QueryAllInfo();
 	TPM::ShowTPMInfo();
+	HID::QueryAllInfo();
 	UsnJrnl::QueryAllInfo();
 	MAC::QueryAllInfo();
 	ARP::QueryAllInfo();

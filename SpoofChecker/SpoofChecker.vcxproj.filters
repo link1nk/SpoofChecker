@@ -84,6 +84,12 @@
     <Filter Include="Source Files\Checks\Registry">
       <UniqueIdentifier>{516e7f78-e6bb-48ad-9dc3-fa0327b1b603}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Checks\HID">
+      <UniqueIdentifier>{65acda7c-b748-475d-b0fb-0dfb6b8ff548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Checks\HID">
+      <UniqueIdentifier>{e5597fee-a8da-43fa-a3d5-90d20434a967}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -134,6 +140,9 @@
     <ClInclude Include="Registry.h">
       <Filter>Header Files\Checks\Registry</Filter>
     </ClInclude>
+    <ClInclude Include="HID.h">
+      <Filter>Header Files\Checks\HID</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SpoofChecker.cpp">
@@ -171,6 +180,9 @@
     </ClCompile>
     <ClCompile Include="Registry.cpp">
       <Filter>Source Files\Checks\Registry</Filter>
+    </ClCompile>
+    <ClCompile Include="HID.cpp">
+      <Filter>Source Files\Checks\HID</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

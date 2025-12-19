@@ -133,6 +133,7 @@
     <ClInclude Include="Disk.h" />
     <ClInclude Include="DiskDefines.h" />
     <ClInclude Include="Files.h" />
+    <ClInclude Include="HID.h" />
     <ClInclude Include="IOCTL_Base.h" />
     <ClInclude Include="MAC.h" />
     <ClInclude Include="pch.h" />
@@ -149,6 +150,7 @@
     <ClCompile Include="ARP.cpp" />
     <ClCompile Include="Disk.cpp" />
     <ClCompile Include="Files.cpp" />
+    <ClCompile Include="HID.cpp" />
     <ClCompile Include="IOCTL_Base.cpp" />
     <ClCompile Include="MAC.cpp" />
     <ClCompile Include="pch.cpp">

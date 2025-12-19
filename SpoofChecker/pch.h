@@ -3,6 +3,8 @@
 #pragma comment(lib, "ws2_32.lib")
 #pragma comment(lib, "Iphlpapi.lib")
 #pragma comment(lib, "rpcrt4.lib")
+#pragma comment(lib, "hid.lib")
+#pragma comment(lib, "setupapi.lib")
 
 #define _NTSCSI_USER_MODE_
 #define _CRT_SECURE_NO_WARNINGS
@@ -32,6 +34,10 @@
 #include <string>
 #include <fstream>
 #include <scsi.h>
+#include <hidsdi.h>
+#include <setupapi.h>
+#include <devguid.h>
+#include <hidclass.h>
 
 #include "Colors.h"
 #include "IOCTL_Base.h"
@@ -48,3 +54,4 @@
 #include "SMBIOSDefines.h"
 #include "SMBIOS.h"
 #include "Registry.h"
+#include "HID.h"
